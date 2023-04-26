@@ -1,0 +1,103 @@
+
+.bar{
+  width:650px;
+  background:white;
+  box-shadow:0 0 5px hsl(0 0% 78%);
+  height:65px;
+  border-radius:100vw;
+ display:flex;
+  font-size:0.7rem;
+  margin-top: 40px;
+  margin-left: 300px;
+}
+.navbar{
+  display: flex;
+  padding-top: 0.5px !important;
+
+}
+
+.sticky{
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.bar p{
+ margin-top: 0px;
+ padding: 0px;
+}
+
+.bar div{
+  border-radius:inherit;
+  padding:0.8rem 1.5rem;
+}
+
+.bar div:hover{
+  background:hsl(0 0% 94%);
+}
+
+
+.checkin, .checkout{
+  margin-bottom: 0px;
+  width:20%;
+}
+
+.checkin p, .checkout p, .bar p {
+  margin-bottom: 0;
+}
+
+
+input[type="text"]{
+  background:none;
+  border:none;
+  margin-top: 1px;
+  /* padding:5px 0 0 0; */
+
+
+}
+
+input[type="text"]:focus{
+  outline:none;
+  margin-top: 0px;
+
+}
+
+::placeholder{
+  font-size:0.5rem;
+  word-spacing: 0;
+}
+
+
+/* .addHome p{
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100px;
+  margin-top: 10px;
+  font-size: 10px;
+} */
+
+.bar>div{
+  position:relative;
+}
+
+
+.bar>div::before{
+  position:absolute;
+  content:"";
+  left:0;
+  top:50%;
+  transform:translateY(-50%);
+  width:1px;
+  height:50%;
+  background:hsl(0 0% 90%);
+}
+
+.bar>div:nth-of-type(1)::before{
+   background:transparent;
+}
+
+
+.bar>div:hover::before{
+  background:transparent;
+}
