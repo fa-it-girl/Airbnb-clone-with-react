@@ -10,7 +10,7 @@ const Header = () => {
      <div className={classes.sticky}>
     <div className={classes.navbar}>
       <div className={classes.imageLogo}>
-        <Link to='/'><img src={logo} alt='Logo' height='100px' width='100px'style={{marginTop: '20px', marginLeft: '20px'}} /></Link>
+        <Link to=''><img src={logo} alt='Logo' height='100px' width='100px'style={{marginTop: '20px', marginLeft: '20px'}} /></Link>
       </div>
       <div className={classes.bar}>
         <div class="place">
@@ -26,7 +26,7 @@ const Header = () => {
           <input type="text" placeholder="Add dates" />
         </div>
 
-  </div>
+      </div>
 
   </div><hr style={{marginTop: '25px'}}/>
   {/* <Icons /> */}

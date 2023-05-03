@@ -36,12 +36,12 @@ function App() {
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '',
     element: <Root />,
     errorElement: <Error />,
     children: [
       {index: true, element: <Items items = {items}/>},
-      {path: '/product/:id', element: <HomeDetails items = {items}/>}
+      {path: 'product/:id', element: <HomeDetails items = {items}/>}
     ]
   }
 ])

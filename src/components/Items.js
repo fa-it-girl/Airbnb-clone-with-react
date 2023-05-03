@@ -10,9 +10,9 @@ const Items = (props) => {
         {props.items.map(item => {
           return (
             <div className={classes.container} key = {item.id}>
-              <Link to={`/product/${item.id}`} style={{ textDecoration: 'none' }}>
+              <Link to={`product/${item.id}`} style={{ textDecoration: 'none' }}>
               <div className={classes.item}>
-                <img src={item.image[0]} alt="house " width="300" height="300" style={{objectFit: 'cover', borderRadius: '15px'}} />
+                <img src={item.image[0]} alt="house " />
               </div>
               <div className={classes.info}>
                 <h4>Location: {item.location}</h4>

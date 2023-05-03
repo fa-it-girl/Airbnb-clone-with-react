@@ -10,25 +10,28 @@ import { BsBuilding } from "react-icons/bs";
 import classes from './Icons.module.css'
 
 
+
 const Icons = () => {
   return(
     <>
       <div className={classes.icons}>
-       <div style={{marginRight: '50px'}}><AiOutlineHome /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><BsBuildingAdd /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><BsBuildingAdd /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><GoHome /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><BiBuildingHouse /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><TbBuildingCircus /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><TbBuildingCottage /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><RiBuildingLine /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><TbBuildingCastle /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><BsBuilding /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><TbBuildingCottage /><p style={{fontSize: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><RiBuildingLine /><p style={{fontSize: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><TbBuildingCastle /><p style={{fontSize: '10px'}}>Home</p></div>
-       <div style={{marginRight: '50px'}}><BsBuilding /><p style={{fontSize: '10px'}}>Home</p></div>
+       <div className={classes.icon}><AiOutlineHome /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><BsBuildingAdd /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><BsBuildingAdd /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><GoHome /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><BiBuildingHouse /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><TbBuildingCircus /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><TbBuildingCottage /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><RiBuildingLine /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><TbBuildingCastle /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><BsBuilding /><p style={{fontSize: '10px', marginLeft: '10px'}}>Home</p></div>
+       <div className={classes.icon}><TbBuildingCottage /><p style={{fontSize: '10px'}}>Home</p></div>
+       <div className={classes.icon}><RiBuildingLine /><p style={{fontSize: '10px'}}>Home</p></div>
+       <div className={classes.icon}><TbBuildingCastle /><p style={{fontSize: '10px'}}>Home</p></div>
+       <div className={classes.icon}><BsBuilding /><p style={{fontSize: '10px'}}>Home</p></div>
       </div>
+
+
     </>
   )
 }
